@@ -65,8 +65,14 @@
     gap: 10px;
   }
   
+   .logo h4 {
+  margin-right: 150px;
+  align-items: left;
+  }
+
+
   .logo img {
-    margin-right: 200px;
+    margin-right: 0px;
     height: 30px;
   }
   
