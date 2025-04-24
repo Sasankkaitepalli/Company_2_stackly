@@ -1134,9 +1134,10 @@ button:hover {
 
 
 
-@media screen and (max-width: 1024px) {
+@media  (max-width: 1024px) {
 
-  .navbar{
+   .navbar{
+    display: flex;
     flex-direction: row;
     align-items: center;
     margin-right: 0px;
@@ -1232,7 +1233,14 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media  (max-width: 768px) {
+
+   .navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0px;
+  }
   .hero-content h1 {
     font-size: 2rem;
     z-index: 2;
@@ -1286,7 +1294,15 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media  (max-width: 480px) {
+
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0px;
+  }
+    
   .logo img {
     height: 24px;
   }
