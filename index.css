@@ -1199,9 +1199,7 @@ button:hover {
     align-items: center;
   }
 
-  .skills-section {
-    padding: 40px 20px;
-  }
+
 
   .image-side img {
     width: 100%;
@@ -1308,9 +1306,6 @@ button:hover {
   }
 
 
-  .skills-section {
-    padding: 20px;
-  }
 
   .content-side h2 {
     font-size: 1.8rem;
@@ -1321,6 +1316,56 @@ button:hover {
   }
 }
 
+
+
+
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 40px 20px;
+  }
+
+  .skills-section h2 {
+    font-size: 2rem;
+  }
+
+  .skill-item img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .skill-item p {
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .skills-section {
+    padding: 30px 15px;
+  }
+
+  .skills-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+  }
+
+  .skill-item {
+    padding: 10px;
+  }
+
+  .skill-item img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .skill-item p {
+    font-size: 0.8rem;
+  }
+}
 
 
 
