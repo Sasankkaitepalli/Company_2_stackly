@@ -1292,6 +1292,11 @@ button:hover {
     border-top: 12px solid transparent;
     border-bottom: 12px solid transparent;
   }
+
+     .heading h2 {
+    padding-bottom: 50px;
+  }
+  
 }
 
 @media  (max-width: 480px) {
@@ -1330,6 +1335,10 @@ button:hover {
   .section-header h2 {
     font-size: 1.8rem;
   }
+     .heading h2 {
+    padding-bottom: 50px;
+  }
+  
 }
 
 
