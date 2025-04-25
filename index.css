@@ -1335,53 +1335,116 @@ button:hover {
 
 
 
+
+@media (max-width: 1024px) {
+  .skills-section {
+    padding: 50px 40px;
+  }
+
+  .image-side img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-side h2 {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .image-side {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .image-side img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .content-side {
+    margin-top: 0;
+  }
+
+  .content-side h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .subheading {
+    text-align: center;
+  }
+
+  .view-all {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
   .skills-section {
     padding: 40px 20px;
   }
 
-  .skills-section h2 {
-    font-size: 2rem;
+  .label {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
   }
 
-  .skill-item img {
-    width: 40px;
-    height: 40px;
+  .content-side h2 {
+    font-size: 1.6rem;
   }
 
-  .skill-item p {
+  .view-all {
     font-size: 0.9rem;
   }
 }
 
 
-@media (max-width: 480px) {
-  .skills-section {
-    padding: 30px 15px;
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
-  .skills-section h2 {
-    font-size: 1.5rem;
+  .footer-logo {
+    margin-bottom: 1rem;
   }
 
-  .skills-grid {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 15px;
+  .footer-links {
+    justify-content: center;
+    margin-bottom: 1rem;
   }
 
-  .skill-item {
-    padding: 10px;
-  }
-
-  .skill-item img {
-    width: 35px;
-    height: 35px;
-  }
-
-  .skill-item p {
-    font-size: 0.8rem;
+  .footer-copy {
+    text-align: center;
+    white-space: normal;
   }
 }
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 1rem;
+  }
+
+  .footer-links a {
+    font-size: 0.95rem;
+  }
+
+  .footer-copy {
+    font-size: 0.85rem;
+  }
+}
+
 
 
 
