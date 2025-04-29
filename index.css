@@ -2059,8 +2059,12 @@ margin-left: 160px;
     font-size: 28px;
   }
 
+   .marquee {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
   .marquee p {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .footer-left h2, .footer-left p a {
@@ -2127,7 +2131,7 @@ margin-left: 160px;
   }
 
   .marquee p {
-    font-size: 2.5rem;
+    font-size: 5rem;
   }
 
   .card, .card2, .card3 {
